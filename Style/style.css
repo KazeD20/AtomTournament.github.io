@@ -1,0 +1,86 @@
+/* Reglas universales */
+*{
+    margin: 0;
+
+}
+/* Tipo de letra para los titulos */
+body h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* Tupo de letra para el contenido */
+body p{
+    font-family: "Arimo", sans-serif;
+}
+
+/* Colocando todo en linea en el header */
+#Header{
+    display: flex;
+}
+/* Tipo de letra del header */
+#Header h1{
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    text-align: center;
+}
+/* Ajustando tamaño de logo */
+
+#Header img{
+    width: 10vh;
+    height: auto;
+}
+
+/* Colocando imagen de fondo */
+body{
+    background-image: url(../img/patron-linea-cuadricula-gris-sobre-fondo-negro_53876-103710.avif);
+    background-size: cover;
+    background-position: cover;
+    height: 100vh;
+}
+
+/* Cambiando el tamaño de el logo de guilty gear */
+.Guilty{
+    height: 50px;
+    width: 100px;
+}
+
+/* Colocando inline los logos de los juegos */
+#LogosInline{
+    display: flex ;
+    justify-content: center;
+}
+/* Ajustando el tamaño del padding */
+#LogosInline>img{
+    padding: 0 30px;
+}
+
+/* Cambiando el color de los div */
+.bg-warning{
+    background-color:  #f59c0f  !important;
+}
+
+#Boton{
+    display: flex;
+    flex-direction: column;
+}
+#Boton button.btn:hover{
+    background-color: #ffb134;
+}
+.btn-warning{
+    background-color:  #f59c0f  ;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fooeter */
+
+#Footer{
+    width: 100%;
+    padding: 50px 0% 0% 0% !important;
+    height: 10vh;
+}
+
+#Footer img{
+    width: 25px;
+    height: 25px;
+}
